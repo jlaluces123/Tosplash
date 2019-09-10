@@ -7,6 +7,7 @@ import { Route, Switch } from 'react-router-dom';
 // Component Imports
 import Navigation from './Navigation/index';
 import Home from './Home/index';
+require('dotenv').config();
 
 function App() {
   return (

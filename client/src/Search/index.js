@@ -57,7 +57,7 @@ class Search extends Component {
             id="query"
             value = {this.state.query}
             onChange = {this.handleInputChange}
-            placeholder = "Search free high-resolution photos"
+            placeholder = "🔎 Search free high-resolution photos"
           />
         </form>
       </div>

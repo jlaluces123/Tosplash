@@ -1,15 +1,54 @@
 .navigation {
-  background-color: #EEEDED;
+  /* background-color: white; */
   position: fixed;
   top: 0;
   width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 70px;
+  height: 80px;
   padding: 0 30px;
+}
+
+.left-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-nav img {
+  margin-bottom: 14px;
+}
+
+.right-nav {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link-btn {
+  text-decoration: none;
+}
+
+.link__login {
+  margin-right: 5%;
+  color: #2D2D2D;
+}
+
+.link__join {
+  color: #2D2D2D;
 }
 
 .navigation img {
   max-height: 50px;
+}
+
+.navigation .search form .form__search {
+  width: 40vw;
+  border-radius: 50px;
+  background-color: lightgray;
+}
+
+::placeholder {
+  font-size: 14px;
 }

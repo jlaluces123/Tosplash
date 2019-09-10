@@ -11,16 +11,14 @@ class Home extends Component {
   render() {
     return (
       <div className="home">
-        {/* Hero Section */}
+
         <div className="hero">
-          <h1>Hero Section</h1>
+          <h1>Tosplash</h1>
+          <p>The internet's source of freely useable images</p>
+          <p>Powered by creators everywhere</p>
           <Search />
         </div>
 
-        {/* Image List Section */}
-        <div className="images">
-          <h1>Images</h1>
-        </div>
       </div>
     );
   }

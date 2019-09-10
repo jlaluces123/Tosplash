@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
+import './search.css';
+
+// Dependency imports
 import axios from "axios";
 require('dotenv').config();
 
-// let baseAPIUrl = "https://api.unsplash.com/";
 // https://api.unsplash.com/photos/?client_id=YOUR_ACCESS_KEY
 
 class Search extends Component {
@@ -49,11 +51,13 @@ class Search extends Component {
       <div className="search">
         <form onSubmit = {this.handleSubmit}>
           <input
+            className = "form__search"
             type="search"
             name="query"
             id="query"
             value = {this.state.query}
             onChange = {this.handleInputChange}
+            placeholder = "Search free high-resolution photos"
           />
         </form>
       </div>

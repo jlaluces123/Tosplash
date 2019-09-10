@@ -5,13 +5,15 @@ import './App.css';
 import { Route, Switch } from 'react-router-dom';
 
 // Component Imports
-import Home from "./Home/index";
+import Navigation from './Navigation/index';
+import Home from './Home/index';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         {/* Navigation Goes Here */}
+        <Navigation />
       </header>
 
       <main className="main">
